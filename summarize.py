@@ -5,12 +5,13 @@ import heapq
 import re
 
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
 
 
 def main():
-    file_name = str(input("1. Enter text file name: "))
+    file_name = "text_files/" + \
+        str(input("1. Enter text file name (without extension): ")) + ".txt"
     sent_max_length = 30
     top_n = 3
 
