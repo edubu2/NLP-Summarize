@@ -3,6 +3,8 @@ This idea stemmed from an [article](https://towardsdatascience.com/report-is-too
 
 The program takes a text file and returns a summary of the file containing the three most important sentences. To see how it works, take a look at the Summarize.ipynb Jupyter Notebook.
 
+**NOTE: a more user-friendly version of this application is included in my [website](www.ewilens.com/summarize-text)**
+
 ## Instructions:
 1. Save any articles or long text to a .txt file in the NLP-Summarize/text_files directory. Remember the name of the file.
 2. From your computer's terminal, navigate to the NLP-Summarize directory
